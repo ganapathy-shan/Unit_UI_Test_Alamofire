@@ -1,0 +1,9 @@
+use_frameworks!
+target 'Alamofire_Simple_Example' do
+  pod 'Alamofire', '~> 5.0'
+  pod 'OHHTTPStubs/Swift'
+end
+
+target 'Alamofire_Simple_ExampleTests' do
+  pod 'OHHTTPStubs/Swift'
+end
